@@ -128,6 +128,7 @@ json 解析：
 其中 `list_id` 是每个标签页分类的标识，详情见[推荐](#recommend)中的 `content_type` 字段
 
 <h1 id="recommend">推荐</h1>
+
 url：`http://iu.snssdk.com/neihan/stream/mix/v1/`
 
 拼接参数：
@@ -402,6 +403,7 @@ json 解析：
 			- `digg_count`：热门评论点赞量
 
 <h1 id="video">视频</h1>
+
 url：同[推荐](#recommend)
 
 拼接参数：同[推荐](#recommend)
