@@ -585,6 +585,7 @@ json 解析：
 `itemList` 内容可根据 `type` 和 `dataType` 分成5种类型
 
 <h3 id="home_video">视频</h3>
+
 - `type`：类型，固定值 `video`
 - `data`：具体数据
 	- `dataType`：数据类型，固定值 `VideoBeanForClient`
