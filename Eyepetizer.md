@@ -614,12 +614,14 @@ json 解析：
 		- `actionUrl`：分类的 url
 
 <h3 id="home_textFooter">textFooter</h3>
+
 - `type`：类型，固定值 `textFooter`
 - `data`：具体数据
 	- `text`：信息
 	- `actionUrl`：需要拼接的 url
 
 <h3 id="home_videoCollectionWithCover">videoCollectionWithCover</h3>
+
 - `type`：类型，固定值 `videoCollectionWithCover`
 - `data`：具体数据
 	- `dataType`：数据类型，取值 `ItemCollection`
@@ -633,9 +635,11 @@ json 解析：
 	- `count`：`itemList` 长度，即返回数据的总长度
 
 <h3 id="home_textHeader">textHeader</h3>
+
 同[textFooter](#home_textFooter)
 
 <h3 id="home_videoCollectionOfFollow">home_videoCollectionOfFollow</h3>
+
 - `type`：类型，固定值 `videoCollectionOfFollow`
 - `data`：具体数据
 	- `dataType`：数据类型，取值 `ItemCollection`
@@ -932,6 +936,7 @@ json 解析：
 除了新增的几个类型之外，其他类型和[首页](#home)中的相同
 
 <h4 id="hot_horizontalScrollCard">horizontalScrollCard</h4>
+
 - `type`：固定值 `horizontalScrollCard`
 - `data`
 	- `dataType`：固定值 `HorizontalScrollCard`
@@ -945,6 +950,7 @@ json 解析：
 			- `actionUrl`：拼接的 url
 
 <h4 id="hot_squareCardCollection">squareCardCollection</h4>
+
 - `type`：固定值 `squareCardCollection`
 - `data`
 	- `dataType`：固定值 `ItemCollection`
@@ -957,6 +963,7 @@ json 解析：
 			- `image`：图片信息
 			- `actionUrl`：拼接的 url
 <h4 id="hot_textHeader">textHeader</h4>
+
 - `type`：固定值 `squareCardCollection`
 - `data`
 	- `dataType`	：固定值 `ItemCollection`
