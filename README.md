@@ -85,11 +85,11 @@ app 下载链接：[http://www.wandoujia.com/apps/com.nineton.weatherforecast](h
 
 app 下载链接（非小米不可安装）：[http://www.cr173.com/soft/264860.html](http://www.cr173.com/soft/264860.html)
 
-## [魅族天气：API 链接](https://github.com/jokermonn/-Api/blob/master/MeizuWeather.md) ##
+## [魅族天气：API 链接](https://github.com/jokermonn/-Api/blob/master/MXWeather.md) ##
 
 ![](http://p1.bpimg.com/4851/4fe7a2df33d616b0.png)
 
-app 下载链接：[http://www.paopaoche.net/android/97297.html](http://www.paopaoche.net/android/97297.html)
+## [OPPO 天气：API 链接](https://github.com/jokermonn/-Api/blob/master/OPPOWeather.md) ##
 
 ## [每日一文：API 链接](https://github.com/jokermonn/-Api/blob/master/OneArticle.md) ##
 
