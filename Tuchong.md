@@ -1,6 +1,6 @@
 # 图虫 #
 - [推荐](#recommend)
-	- [图片查看](#photo)
+	- [图片细节](#photo)
 - [发现](#discover)
 	- [标签](#tag)
 	- [内容](#content)
@@ -124,6 +124,7 @@ json 解析：
 	- `comments`：多少人评论
 	- `images`：图片宽高等信息
 		- `img_id`：用于查看[图片细节](#photo_details)
+		- `user_id`：https://photo.tuchong.com/ + user_id +/f/ + img_id 即图片地址，例：[`https://photo.tuchong.com/1673709/f/25389444.jpg`](https://photo.tuchong.com/1673709/f/25389444.jpg)
 	- `title`：图片名称
 	- `tags`：图片标签
 	- `site`：作者信息
@@ -134,7 +135,7 @@ json 解析：
 		- `followers`：
 		- `followers`：粉丝数量
 
-<h3 id="photo_details">图片细节</h3>
+<h3 id="photo">图片细节</h3>
 
 url：https://api.tuchong.com/images/ + `img_id`([推荐](#recommend) json 中的字段) + /exif
 
