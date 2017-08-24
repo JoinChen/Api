@@ -1,5 +1,6 @@
 - [中央天气预报](#weather)
 - [中央天气预报细节](#weather_details)
+- [code 细节](#code_details)
 
 <h2 id="weather">中央天气预报</h2>
 
@@ -418,6 +419,97 @@ json 示例：
 - `status`：成功时返回 `OK`
 - `hourly`：具体小时天气信息列表
 	- `text`：天气状况
-	- `code`：???
+	- `code`：请参考 [code 细节]
 	- `temperature`：温度
 	- `time`：时间
+
+<h2 id="code_details">code 细节</h2>
+
+感谢 [@Zane6w](https://github.com/Zane6w) 整理 [#19](https://github.com/jokermonn/-Api/issues/19)
+
+	/// 晴
+    case sunny = 0
+    /// 晴
+    case clear = 1
+    /// 晴
+    case fair1 = 2
+    /// 晴
+    case fair2 = 3
+    
+    /// 多云
+    case cloudy = 4
+    /// 晴间多云
+    case partlyCloudy1 = 5
+    /// 晴间多云
+    case partlyCloudy2 = 6
+    /// 大部多云
+    case mostlyCloudy1 = 7
+    /// 大部多云
+    case mostlyCloudy2 = 8
+    
+    /// 阴
+    case overcast = 9
+    /// 阵雨
+    case shower = 10
+    /// 雷阵雨
+    case thundershower = 11
+    /// 雷阵雨伴有冰雹
+    case thundershowerWithHail = 12
+    /// 小雨
+    case lightRain = 13
+    /// 中雨
+    case moderateRain = 14
+    /// 大雨
+    case heavyRain = 15
+    /// 暴雨
+    case storm = 16
+    /// 大暴雨
+    case heavyStorm = 17
+    /// 特大暴雨
+    case severeStorm = 18
+    
+    /// 冻雨
+    case iceRain = 19
+    /// 雨夹雪
+    case sleet = 20
+    /// 阵雪
+    case snowFlurry = 21
+    /// 小雪
+    case lightSnow = 22
+    /// 中雪
+    case moderateSnow = 23
+    /// 大雪
+    case heavySnow = 24
+    /// 暴雪
+    case snowstorm = 25
+    
+    /// 浮尘
+    case dust = 26
+    /// 扬沙
+    case sand = 27
+    /// 沙尘暴
+    case duststorm = 28
+    /// 强沙尘暴
+    case sandstorm = 29
+    /// 雾
+    case foggy = 30
+    /// 霾
+    case haze = 31
+    /// 风
+    case windy = 32
+    /// 大风
+    case blustery = 33
+    /// 飓风
+    case hurricane = 34
+    /// 热带风暴
+    case tropicalStorm = 35
+    /// 龙卷风
+    case tornado = 36
+    
+    /// 冷
+    case cold = 37
+    /// 热
+    case hot = 38
+    
+    /// 未知
+    case unknown = 99
