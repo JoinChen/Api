@@ -33,7 +33,7 @@ json 示例：
 - `titile`：标题
 - `digest`：首段
 - `content`：正文内容
-- `wc`：???
+- `wc`：字数(word count)
 
 <h2 id="someday">特定某天一文</h2>
 
