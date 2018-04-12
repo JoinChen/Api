@@ -1,5 +1,5 @@
 - [不分类别获取手机壁纸接口](#vertical)
-- [获取手机壁纸类别(#vertical-category)
+- [获取手机壁纸类别](#vertical-category)
 - [获取某类手机壁纸下壁纸](#category-img)
 - [获取手机壁纸评论](#vertical-comment)
 - [下载手机壁纸](#get-vertical-img)
@@ -606,7 +606,7 @@ url 示例：[`http://service.picasso.adesk.com/v1/wallpaper/category/4e4d610cdf
 
 json 示例：
 
-{
+    {
     "msg": "success",
     "res": {
         "wallpaper": [
@@ -682,7 +682,8 @@ url：http://service.picasso.adesk.com/v1/wallpaper/album
 url 示例：[`http://service.picasso.adesk.com/v1/wallpaper/album?limit=10&adult=false&first=1&order=hot`](http://service.picasso.adesk.com/v1/wallpaper/album?limit=10&adult=false&first=1&order=hot)
 
 json 示例：
-{
+
+    {
     "msg": "success",
     "res": {
         "album": [
@@ -711,7 +712,7 @@ json 示例：
                 ],
                 "sn": 999,
                 "lcover": "http://img0.adesk.com/download/53a1020b69401b6f29d9145b",
-                "favs": 12250,
+                "favs": 12252,
                 "type": 1,
                 "isfeed": false
             },
@@ -723,7 +724,7 @@ json 示例：
                     "gcid": "",
                     "name": "安卓壁纸蛋蛋君",
                     "gender": 1,
-                    "follower": 4522,
+                    "follower": 4521,
                     "avatar": "http://img0.adesk.com/download/53bcf873174cf12dc1add149",
                     "viptime": 978278400,
                     "following": 0,
@@ -740,7 +741,7 @@ json 示例：
                 ],
                 "sn": 999,
                 "lcover": "http://img0.adesk.com/download/53a16dc569401b6f29dae5cb",
-                "favs": 2791,
+                "favs": 2792,
                 "type": 1,
                 "isfeed": false
             },
@@ -752,7 +753,7 @@ json 示例：
                     "gcid": "",
                     "name": "安卓壁纸蛋蛋君",
                     "gender": 1,
-                    "follower": 4522,
+                    "follower": 4521,
                     "avatar": "http://img0.adesk.com/download/53bcf873174cf12dc1add149",
                     "viptime": 978278400,
                     "following": 0,
@@ -769,7 +770,7 @@ json 示例：
                 ],
                 "sn": 999,
                 "lcover": "http://img0.adesk.com/download/53a297d569401b458afca62c",
-                "favs": 26110,
+                "favs": 26111,
                 "type": 1,
                 "isfeed": false
             },
@@ -781,7 +782,7 @@ json 示例：
                     "gcid": "",
                     "name": "安卓壁纸蛋蛋君",
                     "gender": 1,
-                    "follower": 4522,
+                    "follower": 4521,
                     "avatar": "http://img0.adesk.com/download/53bcf873174cf12dc1add149",
                     "viptime": 978278400,
                     "following": 0,
@@ -810,7 +811,7 @@ json 示例：
                     "gcid": "",
                     "name": "安卓壁纸蛋蛋君",
                     "gender": 1,
-                    "follower": 4522,
+                    "follower": 4521,
                     "avatar": "http://img0.adesk.com/download/53bcf873174cf12dc1add149",
                     "viptime": 978278400,
                     "following": 0,
@@ -839,7 +840,7 @@ json 示例：
                     "gcid": "",
                     "name": "安卓壁纸蛋蛋君",
                     "gender": 1,
-                    "follower": 4522,
+                    "follower": 4521,
                     "avatar": "http://img0.adesk.com/download/53bcf873174cf12dc1add149",
                     "viptime": 978278400,
                     "following": 0,
@@ -856,7 +857,7 @@ json 示例：
                 ],
                 "sn": 999,
                 "lcover": "http://img0.adesk.com/download/53a1798a69401b6f29db131c",
-                "favs": 14897,
+                "favs": 14898,
                 "type": 1,
                 "isfeed": false
             },
@@ -868,7 +869,7 @@ json 示例：
                     "gcid": "",
                     "name": "安卓壁纸蛋蛋君",
                     "gender": 1,
-                    "follower": 4522,
+                    "follower": 4521,
                     "avatar": "http://img0.adesk.com/download/53bcf873174cf12dc1add149",
                     "viptime": 978278400,
                     "following": 0,
@@ -897,7 +898,7 @@ json 示例：
                     "gcid": "",
                     "name": "安卓壁纸蛋蛋君",
                     "gender": 1,
-                    "follower": 4522,
+                    "follower": 4521,
                     "avatar": "http://img0.adesk.com/download/53bcf873174cf12dc1add149",
                     "viptime": 978278400,
                     "following": 0,
@@ -914,7 +915,7 @@ json 示例：
                 ],
                 "sn": 999,
                 "lcover": "http://img0.adesk.com/download/53a2c15b69401b45756b4806",
-                "favs": 7248,
+                "favs": 7249,
                 "type": 1,
                 "isfeed": false
             },
@@ -926,7 +927,7 @@ json 示例：
                     "gcid": "",
                     "name": "安卓壁纸蛋蛋君",
                     "gender": 1,
-                    "follower": 4522,
+                    "follower": 4521,
                     "avatar": "http://img0.adesk.com/download/53bcf873174cf12dc1add149",
                     "viptime": 978278400,
                     "following": 0,
@@ -955,7 +956,7 @@ json 示例：
                     "gcid": "",
                     "name": "安卓壁纸蛋蛋君",
                     "gender": 1,
-                    "follower": 4522,
+                    "follower": 4521,
                     "avatar": "http://img0.adesk.com/download/53bcf873174cf12dc1add149",
                     "viptime": 978278400,
                     "following": 0,
@@ -972,7 +973,7 @@ json 示例：
                 ],
                 "sn": 999,
                 "lcover": "http://img0.adesk.com/download/53a2994e69401b461bc08dfb",
-                "favs": 8539,
+                "favs": 8542,
                 "type": 1,
                 "isfeed": false
             }
@@ -984,7 +985,7 @@ json 示例：
                     "isfeed": false,
                     "tag": [
                     ],
-                    "id": "5acd62cee7bce724f43ea0a0",
+                    "id": "5acc62e8e7bce7251e7c5377",
                     "top": 0,
                     "type": 1,
                     "status": "online",
@@ -999,32 +1000,36 @@ json 示例：
                         "isvip": false,
                         "id": "561f6b2194e5cc423617f328"
                     },
-                    "favs": 11,
-                    "atime": 1523409614,
-                    "desc": "由戚薇主演的《北京女子图鉴》4月10起晚8点优酷播出，等你来鉴！",
-                    "name": "【戚薇】北京女子图鉴",
+                    "favs": 10,
+                    "atime": 1523344104,
+                    "desc": "毕业季伤感未至，离奇“作品”却是汹汹来袭，毕设内容新奇独特，创作过程却是一波三折，4.13 无刺激，不毕业，《毕业作品》不见不散",
+                    "name": "【独家】毕业作品",
                     "url": [
+                        {
+                            "name": "点我送票哦！",
+                            "target": "https://weibo.com/1977161541/GbsudF1gx?from=page_1006061977161541_profile&wvr=6&mod=weibotime&type=comment"
+                        }
                     ],
-                    "cover": "http://img5.adesk.com/5acd62fbe7bce7251e7c53b8?imageView2/3/h/240",
-                    "lcover": "http://img5.adesk.com/5acd62fbe7bce7251e7c53b8?imageView2/3/h/720",
+                    "cover": "http://img5.adesk.com/5acc664ee7bce72552e69f12?imageView2/3/h/240",
+                    "lcover": "http://img5.adesk.com/5acc664ee7bce72552e69f12?imageView2/3/h/720",
                     "subname": "",
                     "sn": 999
                 },
-                "offtm": 1523409978,
-                "target": "5acd62cee7bce724f43ea0a0",
-                "img": "5acd643ae7bce7253c78cfd7",
+                "offtm": 1523345483,
+                "target": "5acc62e8e7bce7251e7c5377",
+                "img": "5acc684be7bce7251e7c537a",
                 "new_img": null,
-                "new_thumb": "http://img0.adesk.com/download/http://img0.adesk.com/download/5acd643ae7bce7253c78cfd7",
+                "new_thumb": "http://img0.adesk.com/download/http://img0.adesk.com/download/5acc684be7bce7251e7c537a",
                 "oid": null,
-                "thumb": "http://img0.adesk.com/download/5acd643ae7bce7253c78cfd7",
+                "thumb": "http://img0.adesk.com/download/5acc684be7bce7251e7c537a",
                 "module": 5,
-                "_id": "5acd643ae7bce7253c78cfda",
+                "_id": "5acc684be7bce7251e7c537d",
                 "reco": "",
-                "ontm": 1523409978,
+                "ontm": 1523345483,
                 "desc": "",
-                "atime": 1523409978,
+                "atime": 1523345483,
                 "type": 7,
-                "id": "5acd643ae7bce7253c78cfda",
+                "id": "5acc684be7bce7251e7c537d",
                 "market": [
                 ],
                 "uid": "5965cd0be7bce7312ef79fbf"
@@ -1032,48 +1037,48 @@ json 示例：
             {
                 "value": {
                     "status": "online",
-                    "ename": "插画絮语",
-                    "name": "插画絮语",
+                    "ename": "",
+                    "atime": 1481871292,
                     "url": [
                     ],
                     "user": {
                         "gcid": "",
-                        "name": "江崎",
+                        "name": "兔几",
                         "gender": 1,
-                        "follower": 118,
-                        "avatar": "http://img0.adesk.com/download/5a8e45ae042208425bdb99d3",
-                        "viptime": 1522475588,
+                        "follower": 6228,
+                        "avatar": "http://img0.adesk.com/download/5847b5adda76f7450a045ef4",
+                        "viptime": 1479363990,
                         "following": 0,
                         "isvip": false,
-                        "id": "4e49e7339e499157fc00017b"
+                        "id": "582d4d9694e5cc1942a88c3e"
                     },
-                    "cover": "http://img0.adesk.com/download/53a16fbd69401b6f29daedf9",
-                    "id": "4e71897c056979713c000010",
+                    "cover": "http://img5.adesk.com/5acb1a18e7bce72552e69ed5?imageView2/3/h/240",
+                    "name": "魔卡少女樱",
                     "tag": [
                     ],
                     "sn": 999,
-                    "lcover": "http://img0.adesk.com/download/53a16fbd69401b6f29daedfb",
-                    "favs": 43171,
-                    "atime": 1316063612,
+                    "id": "58538fbc69401b34865ef784",
+                    "lcover": "http://img5.adesk.com/5acb1a18e7bce72552e69ed5?imageView2/3/h/720",
+                    "favs": 6733,
                     "type": 1,
                     "isfeed": false,
-                    "desc": "每位插画家都是孩子。"
+                    "desc": "木之本樱，是就读于友枝小学的小学4年级学生。与父亲和哥哥3人一起生活。一天，小樱在父亲的书房发现一本奇怪的书。那本书中是会给这个世界带来灾难的“库洛牌”！为了回收散布各处的库洛牌，小樱成为了“魔卡捕获者”并不断奋斗……"
                 },
-                "offtm": 1520594891,
-                "target": "4e71897c056979713c000010",
-                "img": "5aa26fcbe7bce7253c78c1c0",
-                "new_img": "5aa26fcbe7bce7253c78c1c3",
-                "new_thumb": "http://img0.adesk.com/download/5aa26fcbe7bce7253c78c1c3",
+                "offtm": 1518438510,
+                "target": "58538fbc69401b34865ef784",
+                "img": "5a81886ee7bce7259115e72f",
+                "new_img": "5a81886ee7bce7259115e732",
+                "new_thumb": "http://img0.adesk.com/download/5a81886ee7bce7259115e732",
                 "oid": null,
-                "thumb": "http://img0.adesk.com/download/5aa26fcbe7bce7253c78c1c0",
+                "thumb": "http://img0.adesk.com/download/5a81886ee7bce7259115e72f",
                 "module": 5,
-                "_id": "5aa26fcbe7bce7253c78c1c6",
+                "_id": "5a81886ee7bce7259115e735",
                 "reco": "",
-                "ontm": 1520594891,
+                "ontm": 1518438510,
                 "desc": "",
-                "atime": 1520594891,
+                "atime": 1518438510,
                 "type": 7,
-                "id": "5aa26fcbe7bce7253c78c1c6",
+                "id": "5a81886ee7bce7259115e735",
                 "market": [
                 ],
                 "uid": "507b922bcd29911da5b9bea8"
@@ -1082,6 +1087,7 @@ json 示例：
     },
     "code": 0
 }
+
 
 解析：
 
@@ -1117,13 +1123,14 @@ url 示例：[`http://service.picasso.adesk.com/v1/wallpaper/album/5acc579be7bce
 
 json示例：
 
-{
+    {
     "msg": "success",
     "res": {
         "album": {
             "ename": "",
             "isfeed": false,
-            "tag": [],
+            "tag": [
+            ],
             "id": "5acc579be7bce7253c78cf9c",
             "top": 0,
             "type": 1,
@@ -1132,106 +1139,32 @@ json示例：
                 "gcid": "",
                 "name": "一念夕雾",
                 "gender": 1,
-                "follower": 13651,
+                "follower": 13656,
                 "avatar": "http://img0.adesk.com/download/5ab664ca254959399461b5f7",
                 "viptime": 1499843851,
                 "following": 0,
                 "isvip": false,
                 "id": "5965cd0be7bce7312ef79fbf"
             },
-            "favs": 66,
+            "favs": 74,
             "atime": 1523341211,
             "desc": "九头龙八一仅16岁就获得了将棋界最强头衔“龙王”，某天他的家中竟突然出现了一名9岁的小学女生雏鹤爱，并且对方还要成为八一的弟子？！在这样的背景下，一场奇妙的同居生活就此开始。",
             "name": "龙王的工作",
-            "url": [],
+            "url": [
+            ],
             "cover": "http://img5.adesk.com/5acc73c0e7bce7250515cdcb?imageView2/3/h/240",
             "lcover": "http://img5.adesk.com/5acc73c0e7bce7250515cdcb?imageView2/3/h/720",
             "subname": "",
             "sn": 999
         },
         "wallpaper": [
-            {
-                "views": 0,
-                "ncos": 3,
-                "rank": 1010,
-                "tag": [
-                    "空银子",
-                    "龙王的工作",
-                    "少女",
-                    "可爱",
-                    "二次元",
-                    "动漫"
-                ],
-                "user": {
-                    "name": "一念夕雾",
-                    "viptime": 1499843851,
-                    "auth": "adesk",
-                    "follower": 13651,
-                    "avatar": "http://img0.adesk.com/download/5ab664ca254959399461b5f7",
-                    "isvip": false,
-                    "id": "5965cd0be7bce7312ef79fbf"
-                },
-                "wp": "http://img5.adesk.com/5acc73c0e7bce7250515cdcb",
-                "xr": false,
-                "cr": false,
-                "favs": 58,
-                "atime": 1523404983,
-                "id": "5acc73c0e7bce7250515cdcb",
-                "desc": "",
-                "thumb": "http://img5.adesk.com/5acc73c0e7bce7250515cdcb",
-                "img": "http://img5.adesk.com/5acc73c0e7bce7250515cdcb",
-                "cid": [
-                    "4e4d610cdf714d2966000003"
-                ],
-                "url": [],
-                "rule": "?imageView2/3/h/$<Height>",
-                "rule_new": "?imageMogr2/thumbnail/!$<Width>x$<Height>r/gravity/Center/crop/$<Width>x$<Height>",
-                "preview": "http://img5.adesk.com/5acc73c0e7bce7250515cdcb",
-                "store": "qiniu"
-            },
-            {
-                "views": 0,
-                "ncos": 2,
-                "rank": 694,
-                "tag": [
-                    "雏鹤爱",
-                    "八一",
-                    "龙王的工作",
-                    "二次元",
-                    "动漫"
-                ],
-                "user": {
-                    "name": "一念夕雾",
-                    "viptime": 1499843851,
-                    "auth": "adesk",
-                    "follower": 13651,
-                    "avatar": "http://img0.adesk.com/download/5ab664ca254959399461b5f7",
-                    "isvip": false,
-                    "id": "5965cd0be7bce7312ef79fbf"
-                },
-                "wp": "http://img5.adesk.com/5acc73b5e7bce7259115fa4b",
-                "xr": false,
-                "cr": false,
-                "favs": 33,
-                "atime": 1523404983,
-                "id": "5acc73b5e7bce7259115fa4b",
-                "desc": "",
-                "thumb": "http://img5.adesk.com/5acc73b5e7bce7259115fa4b",
-                "img": "http://img5.adesk.com/5acc73b5e7bce7259115fa4b",
-                "cid": [
-                    "4e4d610cdf714d2966000003"
-                ],
-                "url": [],
-                "rule": "?imageView2/3/h/$<Height>",
-                "rule_new": "?imageMogr2/thumbnail/!$<Width>x$<Height>r/gravity/Center/crop/$<Width>x$<Height>",
-                "preview": "http://img5.adesk.com/5acc73b5e7bce7259115fa4b",
-                "store": "qiniu"
-            },
         ],
-        "subject": []
+        "subject": [
+        ]
     },
     "code": 0
 }
+
 
 
 <h2 id="get-wallpaper-img">下载电脑壁纸</h2>
